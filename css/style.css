@@ -1,0 +1,35 @@
+
+/* header */
+#header_top {
+  height: 100px;
+  background-color: #2c3e50;
+}
+#header_bottom {
+  height: 780px;
+  background-color: #1abc9c;
+}
+/* /header */
+
+/* main */
+#portfolio {
+  height: 850px;
+}
+#about {
+  height: 610px;
+  background-color: #1abc9c;
+}
+#contact {
+  height: 970px;
+}
+/* /main */
+
+/* footer */
+#footer_top {
+  height: 300px;
+  background-color: #2c3e50;
+}
+#footer_bottom {
+  height: 70px;
+  background-color: #1a252f;
+}
+/* /footer */
