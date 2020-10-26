@@ -7,8 +7,7 @@ body {
 #portfolio,
 #about,
 #contact,
-#footer_top,
-#footer_bottom {
+#footer_top {
   padding: 80px 0;
 }
 h3 {
@@ -16,6 +15,9 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
+}
+h4 {
+  text-transform: uppercase;
 }
 /* /generale */
 
@@ -104,13 +106,9 @@ textarea {
 #footer_top {
   background-color: #2c3e50;
 }
-#footer_top [class*="col-"] {
-  height: 100px;
-  background-color: #ffffff;
-  border: 1px solid black;
-}
 #footer_bottom {
   height: 70px;
+  padding: 40px 0;
   background-color: #1a252f;
   text-align: center;
 }
