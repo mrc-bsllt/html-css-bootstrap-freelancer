@@ -93,6 +93,8 @@ h3 {
 }
 textarea {
   width: 100%;
+  margin: 20px 0;
+  resize: none;
 }
 #contact input[type="submit"] {
   width: auto;
