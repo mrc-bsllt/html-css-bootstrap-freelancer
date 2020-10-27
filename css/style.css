@@ -135,11 +135,36 @@ ul a:hover {
   margin: 0;
 }
 #portfolio .image {
+  position: relative;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 #portfolio img {
   width: 100%;
   border-radius: 10px;
+}
+#portfolio .image:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+#portfolio .image span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  display: none;
+  z-index: 1;
+}
+#portfolio .image:hover span {
+  display: block;
+  opacity: 1;
 }
 /* /portfolio */
 
