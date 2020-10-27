@@ -6,6 +6,11 @@ a {
 a:hover {
   text-decoration: none;
 }
+h1 {
+  margin-bottom: 0;
+  font-size: 3.4em;
+  font-weight: bold;
+}
 h2 {
   margin: 0;
   line-height: 80px;
@@ -49,7 +54,15 @@ ul a:hover {
   background-color: #1abc9c;
 }
 #avatar {
-  width: 240px;
+  width: 210px;
+}
+.star_size {
+  font-size: 30px;
+  margin: 20px 0;
+}
+#header_bottom p {
+  font-size: 1.4em;
+  font-weight: 700;
 }
 /* /header */
 
@@ -121,6 +134,9 @@ textarea {
 @media screen and (max-width: 768px) {
 
   /* generale */
+  h1 {
+    font-size: 2em;
+  }
   h2 {
     font-size: 1em;
   }
@@ -137,5 +153,14 @@ textarea {
     cursor: pointer;
   }
   /* /generale */
+
+  /* header */
+  #avatar {
+    width: 150px;;
+  }
+  #header_bottom p {
+    font-size: 0.9em;
+  }
+  /* /header */
 
 }
