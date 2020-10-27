@@ -56,9 +56,32 @@ ul a:hover {
 #avatar {
   width: 210px;
 }
+.star_decoration {
+  position: relative;
+  width: 20%;
+  margin: auto;
+}
 .star_size {
   font-size: 30px;
-  margin: 20px 0;
+  margin: 25px 0;
+}
+.star_decoration::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  width: 40%;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+.star_decoration::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  width: 40%;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
 }
 #header_bottom p {
   font-size: 1.4em;
@@ -135,7 +158,7 @@ textarea {
 
   /* generale */
   h1 {
-    font-size: 2em;
+    font-size: 1.9em;
   }
   h2 {
     font-size: 1em;
@@ -156,11 +179,38 @@ textarea {
 
   /* header */
   #avatar {
-    width: 150px;;
+    width: 200px;
+  }
+  .star_size {
+    font-size: 25px;
   }
   #header_bottom p {
     font-size: 0.9em;
   }
+  .star_decoration {
+    width: 50%;
+  }
+  .star_decoration::before {
+    width: 35%;
+  }
+  .star_decoration::after {
+    width: 35%;
+  }
   /* /header */
 
 }
+
+/* @media screen and (max-width: 998px) {
+
+  .star_decoration {
+    width: 25%;
+  }
+  .star_decoration::before {
+    width: 35%;
+  }
+  .star_decoration::after {
+    width: 35%;
+  }
+
+
+} */
