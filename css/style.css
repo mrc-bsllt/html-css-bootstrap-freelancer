@@ -9,16 +9,8 @@ body {
 #footer_top {
   padding: 80px 0;
 }
-h1,
-h2,
-h3,
-h4,
-p.head {
-  text-transform: uppercase;
-}
 h3 {
   color: #2c3e50;
-  text-align: center;
   font-weight: 800;
 }
 /* /generale */
@@ -37,10 +29,6 @@ h3 {
 #header_bottom {
   margin-top: 100px;
   background-color: #1abc9c;
-  text-align: center;
-}
-nav {
-  text-align: right;
 }
 #avatar {
   width: 240px;
@@ -68,9 +56,6 @@ nav {
 #about h3,
 #about a {
   color: #ffffff;
-}
-#about .button {
-  text-align: center;
 }
 #about a {
   display: inline-block;
