@@ -24,6 +24,9 @@ h3 {
   font-weight: 600;
   font-size: 3.1em;
 }
+h4 {
+  font-size: 2em;
+}
 p {
   font-size: 1.4em;
 }
@@ -181,14 +184,40 @@ textarea {
 /* /main */
 
 /* footer */
+/* footer_top */
 #footer_top {
   background-color: #2c3e50;
 }
+.logo_social li {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.logo_social li > a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.start_bootstrap {
+  color: #1abc9c;
+}
+/* /footer_top */
+
+/* footer_bottom */
 #footer_bottom {
   height: 70px;
   padding: 30px 0;
   background-color: #1a252f;
 }
+#footer_bottom p {
+  font-size: 1.1em;
+}
+/* /footer_bottom */
 /* /footer */
 
 @media screen and (max-width: 768px) {
@@ -202,6 +231,9 @@ textarea {
   }
   h3 {
     font-size: 1.7em;
+  }
+  h4 {
+    font-size: 1.4em;
   }
   .pad_ver {
     padding: 60px 0;
@@ -226,6 +258,10 @@ textarea {
   .star_decoration::after {
     width: 38%;
   }
+  .margin_top {
+    margin-top: 40px;
+  }
+
   /* /generale */
 
   /* header */
@@ -236,5 +272,11 @@ textarea {
     font-size: 0.9em;
   }
   /* /header */
+
+  /* footer */
+  #footer_bottom p {
+    font-size: 0.8em;
+  }
+  /* /footer */
 
 }
