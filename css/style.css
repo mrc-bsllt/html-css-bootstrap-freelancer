@@ -21,7 +21,8 @@ h2 a:hover {
   color: #ffffff;
 }
 h3 {
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 3.1em;
 }
 .pad_ver {
   padding: 80px 0;
@@ -82,6 +83,10 @@ ul a:hover {
   width: 40%;
   border: 2px solid #ffffff;
   border-radius: 2px;
+}
+.star_decoration.dark::before,
+.star_decoration.dark::after {
+  border: 2px solid #2c3e50;
 }
 #header_bottom p {
   font-size: 1.4em;
@@ -163,7 +168,9 @@ textarea {
   h2 {
     font-size: 1em;
   }
-
+  h3 {
+    font-size: 1.7em;
+  }
   .pad_ver {
     padding: 60px 0;
   }
@@ -191,10 +198,10 @@ textarea {
     width: 50%;
   }
   .star_decoration::before {
-    width: 35%;
+    width: 38%;
   }
   .star_decoration::after {
-    width: 35%;
+    width: 38%;
   }
   /* /header */
 
