@@ -164,17 +164,12 @@ ul a:hover {
 }
 #portfolio .image:hover span {
   display: block;
-  opacity: 1;
 }
 /* /portfolio */
 
 /* about */
 #about {
   background-color: #1abc9c;
-}
-#about h3,
-#about a {
-  color: #ffffff;
 }
 #about a {
   display: inline-block;
